@@ -53,13 +53,15 @@ smiles = '*C(C(=O)N)(C*)C'
 # Import the featurize function from the monomer_featurizer_predictor.py.
 from monomer_featurizer_predictor import featurize
 
-# For better performance you need to install the xTB quantum-chemical package. It is used to calculate descriptors.
+# For better performance you need to install the xTB quantum-chemical package. It is used to calculate
+# descriptors.
 # xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23
 
 print(featurize(smiles)) # Returns a dictionary of feature : value.
 
 # If you do not want to use xTB quantum-chemical package:
-print(featurize(smiles, with_xtb = False)) # Returns the same dictionary with None for quantum-chemical descriptors.
+print(featurize(smiles, with_xtb = False)) # Returns the same dictionary with None for
+# quantum-chemical descriptors.
 
 # You can generate a dictionary with full names of the descriptors:
 from monomer_featurizer_predictor import featurize_to_eng_dict
