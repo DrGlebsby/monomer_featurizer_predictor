@@ -1,0 +1,1 @@
+recursive-include monomer_featurizer_predictor *.pkl
