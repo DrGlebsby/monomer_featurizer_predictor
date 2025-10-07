@@ -85,7 +85,8 @@ print(predict_targets(smiles))
 print(predict_targets(smiles, with_xtb = False)) # It will use models trained without xTB descriptors
 
 # If you want to predict only one particular target:
-print(predict_targets(smiles, target = 'Density')) # or target = 'Glass transition temperature' or 'Thermal decomposition temperature' or 'Melting temperature'
+print(predict_targets(smiles, target = 'Density')) # or target = 'Glass transition temperature'
+# or 'Thermal decomposition temperature' or 'Melting temperature'
 # returns a dictionary
 ```
 
