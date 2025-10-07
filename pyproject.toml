@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monomer-featurizer-predictor"
+version = "0.1.0"
+description = "Monomer featurizer and GPR-based predictors for polymer informatics"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Gleb Averochkin" }]
+requires-python = ">=3.9"
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "pandas",
+  "joblib",
+  "autogpr @ git+https://github.com/IvanBespalov64/autogpr.git"
+]
+
+[tool.setuptools]
+packages = ["monomer_featurizer_predictor"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+monomer_featurizer_predictor = ["*.pkl"]
