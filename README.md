@@ -41,6 +41,27 @@ The descriptors can be used as input features for machine learning models to pre
 
 The monomer_featurizer_predictor.py file also contains functions for predicting the properties of corresponding polymers. To do it, you need to import the GPR models in the same directory.
 
+Installing needed libraries:
+-----------
+1) Install RDKit (same version used in this project):
+
+```python
+conda install -c conda-forge rdkit=2024.03.5
+```
+
+2) To enable quantum-chemical descriptor calculation, install xTB (same version used in this project):
+
+```python
+conda install -c conda-forge xtb=6.7.1
+```
+
+3) To use the prediction functions and the GPR models, install autogpr library:
+
+```python
+python -m pip install git+https://github.com/IvanBespalov64/autogpr.git
+```
+
+
 Quick start:
 -----------
 
@@ -76,6 +97,7 @@ print(featurize_to_rus_dict(smiles, with_xtb = False))
 # 2) Prediction
 
 # To predict 4 properties of the corresponding polymer:
+# - Install autogpr library.
 # - Import the GPR models in the same directory as the monomer_featurizer_predictor.py file.
 # - Use the predict_targets function:
 from monomer_featurizer_predictor import predict_targets
