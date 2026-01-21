@@ -10,7 +10,7 @@ Citation request:
 ------------------
 If you use this code or models in your research, please cite the following paper:
 
-Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeniy Alexandrov, Machine Learning with Physically Grounded, Interpretable Descriptors for Polymer Property Prediction and Monomer Design, Chemical Engineering Journal
+Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeniy Alexandrov, Machine Learning with Physically Grounded, Interpretable Descriptors for Polymer Property Prediction and Monomer Design, Chemical Engineering Science
 
 Features:
 ---------
@@ -85,14 +85,9 @@ print(featurize(smiles, with_xtb = False)) # Returns the same dictionary with No
 # quantum-chemical descriptors.
 
 # You can generate a dictionary with full names of the descriptors:
-from monomer_featurizer_predictor import featurize_to_eng_dict
-print(featurize_to_eng_dict(smiles)) #or
-print(featurize_to_eng_dict(smiles, with_xtb = False))
-
-# You can generate a dictionary with full names of the descriptors in Russian:
-from monomer_featurizer_predictor import featurize_to_rus_dict
-print(featurize_to_rus_dict(smiles)) #or
-print(featurize_to_rus_dict(smiles, with_xtb = False))
+from monomer_featurizer_predictor import featurize_to_dict
+print(featurize_to_dict(smiles)) #or
+print(featurize_to_dict(smiles, with_xtb = False))
 
 # 2) Prediction
 
