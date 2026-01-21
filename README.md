@@ -61,6 +61,13 @@ conda install -c conda-forge xtb=6.7.1
 python -m pip install git+https://github.com/IvanBespalov64/autogpr.git
 ```
 
+If pip cannot access PyPI (e.g., in restricted or corporate environments), install autogpr locally:
+```python
+git clone https://github.com/IvanBespalov64/autogpr.git
+cd autogpr
+python -m pip install . --no-build-isolation
+```
+
 
 Quick start:
 -----------
