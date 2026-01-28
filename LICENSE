@@ -4,9 +4,6 @@
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-Citation request:
-If you use this software or its models in academic work, please cite:
-Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeniy Alexandrov, Machine Learning with Physically Grounded, Interpretable Descriptors for Polymer Property Prediction and Monomer Design, Chemical Engineering Science
 
    1. Definitions.
 
@@ -190,7 +187,7 @@ Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeniy Alexandrov, Machine Learnin
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2026 Gleb Averochkin
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
