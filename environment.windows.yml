@@ -1,0 +1,24 @@
+name: gleb_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+
+  # Chemistry
+  - rdkit=2025.3.6
+  - xtb=6.7.1
+
+  # Jupyter via conda
+  - jupyterlab
+  - ipykernel
+  - ipython
+
