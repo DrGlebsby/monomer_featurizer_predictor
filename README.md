@@ -46,7 +46,7 @@ The monomer_featurizer_predictor.py file also contains functions for predicting 
 Installation:
 -----------
 This project relies on RDKit and xTB for molecular and quantum-chemical descriptor calculation and is developed and tested on Linux.
------------
+
 Linux(recommended)
 
 1) Create the Conda environment:
@@ -64,9 +64,9 @@ python -m pip install git+https://github.com/IvanBespalov64/autogpr.git
 ```
 
 This is the officially supported and fully reproducible setup, matching the server environment used in this project.
-------------------
-Windows (recommended via WSL2)
 
+Windows (recommended via WSL2)
+-----------------------------
 Native Windows installations may lead to inconsistent behavior of RDKit and xTB.
 For full reproducibility, Windows users are strongly encouraged to use WSL2.
 
@@ -93,9 +93,9 @@ python -m pip install git+https://github.com/IvanBespalov64/autogpr.git
 ```
 
 This setup reproduces the same environment as the Linux server.
--------------
-Windows (experimental, without WSL2)
 
+Windows (experimental, without WSL2)
+----------------------
 A native Windows installation may work, but is not officially supported and is provided without guarantees.
 This configuration has been tested by the authors and is considered experimental.
 
