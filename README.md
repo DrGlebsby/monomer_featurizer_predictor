@@ -10,7 +10,15 @@ Citation request:
 ------------------
 If you use this code or models in your research, please cite the following paper:
 
-Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeniy Alexandrov, Machine Learning with Physically Grounded, Interpretable Descriptors for Polymer Property Prediction and Monomer Design, Chemical Engineering Science
+Gleb Averochkin, Ivan Zlobin, Ivan Bespalov, Eugeny Alexandrov,
+Machine learning with physically grounded, interpretable descriptors for polymer property prediction and monomer design,
+Chemical Engineering Science,
+Volume 328,
+2026,
+123732,
+ISSN 0009-2509,
+https://doi.org/10.1016/j.ces.2026.123732.
+(https://www.sciencedirect.com/science/article/pii/S0009250926004446)
 
 Features:
 ---------
