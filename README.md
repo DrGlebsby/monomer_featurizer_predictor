@@ -1,4 +1,4 @@
-# Monomer Featurizer and Predictor of Polymer Properties
+# MFPKit: Monomer Featurizer and Predictor of Polymer Properties
 
 This script provides physically grounded and interpretable featurization
 of monomers for Quantitative Structure–Property Relationship modeling.
